@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.arrow:hover {
+  color: tomato;
+}
+
+#arrow_left {
+  left: 0;
+  padding-left: 1rem;
+}
+
+#arrow_right {
+  right: 0;
+  padding-right: 1rem;
+}
